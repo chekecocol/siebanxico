@@ -1,5 +1,5 @@
 
-# siebanxico
+# Banxico-SIE
 
 This packages enables downloading economic and financial time series hosted on Banco de Mexico's Sistema de Informacion Economica (SIE) directly as a time-indexed Pandas DataFrame. Time series metadata is available on English and Spanish.
 
@@ -10,10 +10,10 @@ Credentials are required by the website to download data. Visit [Banxico's Siste
 
 ## Installation
 
-Install siebanxico with pip
+Install Banxico-SIE with pip
 
 ```bash
-  pip install siebanxico
+  pip install Banxico-SIE
 ```
 ## Usage
 
@@ -48,7 +48,7 @@ df.pct_change(12)
 # This list must contain the ids of the time series. Visit Banxico's website to find this.
 # https://www.banxico.org.mx/SieInternet/defaultEnglish.do
 list_series = ["SP1", "SF311408", "SF311418", "SF311433"]  # CPI, M1, M2, M3 (all in monthly frequency)
-# Note: Periodity of the time series must be identical!
+# Note: Periodicity of the time series must be identical!
 
 # This function requires a pandas.offsets object for the periodicity argument.
 # For monthly data use: pandas.offsets.MonthBegin(1)

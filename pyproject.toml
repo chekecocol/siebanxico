@@ -4,9 +4,9 @@ requires      = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "siebanxico"
+name = "Banxico-SIE"
 version = "1.0.0"
-description = "This packages enables downloading economic and financial time series hosted on Banco de Mexico's Sistema de Informacion Economica (SIE) directly as a time-indexed Pandas Dataframe. Time series metadata is available on English and Spanish."
+description = "This packages enables downloading economic and financial time series hosted on Banco de Mexico's Sistema de Informacion Economica (SIE) directly as a time-indexed Pandas DataFrame. Time series metadata is available on English and Spanish."
 readme = "README.md"
 authors = [{ name = "Ezequiel Piedras Romero", email = "epiedrasr@banxico.org.mx" }]
 license = { file = "LICENSE" }
