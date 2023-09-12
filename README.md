@@ -5,7 +5,7 @@ This packages enables downloading economic and financial time series hosted on B
 
 Credentials are required by the website to download data. Visit [Banxico's Sistema de Informacion Economica API website](https://www.banxico.org.mx/SieAPIRest/service/v1/?locale=en) to request a token.
 
-**Disclaimer: This package is not institutionally endorsed by Banco de Mexico and does not constitute an official Python package to access Banco de Mexico's data. Banco de Mexico does not provide any support to this package and is not liable by its use.**
+**Disclaimer: This package is not institutionally endorsed by Banco de Mexico and does not constitute an official Python package to access Banco de Mexico's data. Banco de Mexico does not provide any support to this package and is not liable for its use.**
 
 
 ## Installation
